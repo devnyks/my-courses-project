@@ -11,6 +11,10 @@ h2 {
   padding-left: 20px;
 }
 
+h1 {
+  text-align: center;
+}
+
 button {
   padding: 10px 20px;
   border: none;
@@ -22,9 +26,31 @@ button {
   cursor: pointer;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
 .courseBox {
   border: 1px solid #bbbbbb75;
-  margin-bottom: 10px;
   padding: 20px;
   border-radius: 4px;
+}
+
+.icon-right,
+.icon-left {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icon-right:hover,
+.icon-left:hover {
+  background-color: #bbbbbb13;
+  border-radius: 50%;
 }
